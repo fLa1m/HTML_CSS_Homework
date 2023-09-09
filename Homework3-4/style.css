@@ -41,6 +41,18 @@ img {
   margin-bottom: 84px;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .navigation__link-home {
   color: #f25822;
   font-family: "Gilroy-SemiBold";
@@ -59,6 +71,12 @@ img {
   margin-bottom: 259px;
 }
 
+.content {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
 .content__title {
   max-width: 522px;
   font-family: "Gilroy-Bold";
@@ -74,6 +92,12 @@ img {
   font-size: 20px;
   line-height: 23.44px;
   margin-bottom: 37px;
+}
+
+.content__btn-list {
+  display: flex;
+  align-items: center;
+  gap: 72px;
 }
 
 .btn {
@@ -95,4 +119,13 @@ img {
   font-size: 15px;
   font-weight: 400;
   line-height: 17.58px;
+}
+
+.footer {
+  margin-bottom: 96px;
+}
+
+.footer__logos {
+  display: flex;
+  justify-content: space-between;
 }
