@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("./font/Gilroy-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./font/Gilroy-Medium.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("./font/Gilroy-Semibold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./font/Gilroy-Regular.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.body {
+  scroll-behavior: smooth;
+  color: black;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 84px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link-home {
+  color: #f25822;
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.navigation__link {
+  color: black;
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  margin-bottom: 259px;
+}
+
+.content__title {
+  max-width: 522px;
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  line-height: 70.31px;
+  margin-bottom: 17px;
+}
+
+.content__text {
+  max-width: 466px;
+  color: #888;
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  line-height: 23.44px;
+  margin-bottom: 37px;
+}
+
+.content__btn-list {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.btn {
+  color: #fff;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  line-height: 17.58px;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  padding: 15px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.content__btn-list__link {
+  color: #aaa;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+}
+
+.footer__logos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.top-cards {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 370px;
+  height: 291px;
+  padding: 40px 31px 25px 29px;
+}
+
+.top-cards__img {
+  margin-bottom: 25px;
+}
+
+.top-cards__title {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+
+.top-cards__text {
+  color: #666;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  margin-bottom: 25px;
+}
+
+.top-cards__btn {
+  background: none;
+  border: none;
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.middle-card {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.bottom-cards {
+  padding-top: 92px;
+  background: #fafafa;
+}
+
+.bottom-cards h1 {
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+  margin-bottom: 19px;
+  text-align: center;
+}
+
+.bottom-cards p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 682px;
+  color: #666;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-card {
+  width: 370px;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.bottom-card h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.bottom-card p {
+  width: 310px;
+  color: #aaa;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%; /* 22.5px */
+  margin-bottom: 39px;
+}
+
+.bottom-middle-card {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-learn {
+  color: #fff;
+  font-family: "Gilroy-Bold";
+  font-size: 13px;
+  line-height: 17.58px;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  padding: 15px 35px;
+  border: none;
+  cursor: pointer;
+}
