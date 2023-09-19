@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 75px;
+  background: #222222;
+}
+
+.header__nav {
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav__left {
+  width: 111px;
+  display: flex;
+  gap: 41px;
+}
+
+.header__nav__left__search {
+  padding-top: 10px;
+}
+
+.header__nav__right {
+  width: 159px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.top {
+  height: 764px;
+  background-color: #f1e4e6;
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.top__right-side {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-top: 290px;
+  margin-left: 63px;
+  width: 405px;
+  height: 93px;
+}
+
+.top__right-side h1 {
+  color: #222;
+  font-family: "Lato";
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.top__right-side h2 {
+  color: #222;
+  font-family: "Lato";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.fashion {
+  color: #f16d7f;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 96px;
+}
+
+.category_card {
+  width: 360px;
+  height: 260px;
+}
+
+.category_card__background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 22, 22, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category_card__background__title h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.category_card__background__title__for {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.for-women {
+  background-image: url(./img/main/category/for_women.jpg);
+}
+
+.for-men {
+  background-image: url(./img/main/category/for_men.jpg);
+}
+
+.for-kids {
+  background-image: url(./img/main/category/for_kids.jpg);
+}
+
+.accessories {
+  background-image: url(./img/main/category/accesories.jpg);
+  width: 100%;
+  height: 180px;
+}
+
+.products {
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products__title {
+  text-align: center;
+}
+
+.products__title {
+  margin-bottom: 48px;
+}
+
+.products__title__h2 {
+  color: #222;
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.products__title__p {
+  color: #9f9f9f;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.products__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 48px;
+}
+
+.product__card {
+  width: 360px;
+  height: 581px;
+  background-color: #f8f8f8;
+}
+
+.product__card__text {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product__card__h2 {
+  color: #000;
+  font-family: "Lato";
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.product__card__p-text {
+  color: #5d5d5d;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 300;
+  width: 314px;
+}
+
+.product__card__price {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.products__all-products-btn {
+  color: #f26376;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ff6a6a;
+  padding: 15px 39px;
+}
