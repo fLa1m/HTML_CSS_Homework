@@ -151,7 +151,7 @@ button {
 }
 
 .products__title {
-  margin-bottom: 48px;
+  margin-bottom: 73px;
 }
 
 .products__title__h2 {
@@ -217,4 +217,59 @@ button {
   font-weight: 400;
   border: 1px solid #ff6a6a;
   padding: 15px 39px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1146px) and (min-width: 848px) {
+  .container {
+    max-width: 736px;
+    margin: 0 auto;
+  }
+
+  .top {
+    height: 368px;
+    justify-content: center;
+  }
+
+  .top__right-side {
+    border-left: 12px solid #f16d7f;
+    padding-left: 16px;
+    margin-top: 138px;
+    margin-left: 39px;
+    width: 311px;
+    height: 78px;
+  }
+
+  .top__right-side h1 {
+    font-size: 44px;
+  }
+
+  .top__right-side h2 {
+    font-size: 24px;
+  }
+
+  .category {
+    gap: 18px;
+    margin-bottom: 110px;
+  }
+
+  .category_card {
+    width: 231px;
+    height: 167px;
+  }
+
+  .accessories {
+    width: 100%;
+    height: 116px;
+  }
+
+  .products {
+    margin-bottom: 71px;
+  }
+
+  .products__cards {
+    gap: 16px;
+  }
 }
